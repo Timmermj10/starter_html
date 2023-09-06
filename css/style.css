@@ -1,0 +1,39 @@
+body {
+    background-color: lightblue;
+}
+
+h1 {
+    font-size: 30px;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+h2 {
+    font-size: 20px;
+    font-family: Georgia;
+    color: black;
+}
+
+h3 {
+    font-size: 24px;
+    font-family: 'Gill Sans';
+    color: black;
+}
+
+p {
+    line-height: 150%;
+}
+
+img {
+    border: solid 5px;
+    border-color: black;
+    padding: 10px;
+    margin: 20px;
+    border-top-right-radius: 30px;
+}
+
+li {
+    margin-left: 50px;
+    display: inline-block;
+
+}
