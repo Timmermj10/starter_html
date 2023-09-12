@@ -35,5 +35,36 @@ img {
 li {
     margin-left: 50px;
     display: inline-block;
+}
 
+a {
+    background-color: purple;
+    padding: 5px;
+    margin: 5px;
+}
+
+nav {
+    border: solid 1px black;
+    padding: 16px;
+    margin: 8px;
+}
+
+nav li {
+    margin-left: 50px;
+    border: solid 8px green;
+    display: inline-block;
+    padding: 16px;
+    margin: 16px;
+}
+
+nav a {
+    background-color: yellow;
+    padding: 5px;
+    margin: 5px;
+}
+
+.thumbnail {
+    border: solid 5px blue;
+    padding: 20px;
+    border-radius: 20px;
 }
