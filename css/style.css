@@ -32,39 +32,51 @@ img {
     border-top-right-radius: 30px;
 }
 
-li {
+.likes li {
     margin-left: 50px;
     display: inline-block;
 }
 
-a {
+/* a {
     background-color: purple;
     padding: 5px;
     margin: 5px;
+} */
+
+.navbar {
+    width: 100%;
+    background-color: #555;
+    overflow: auto;
 }
 
-nav {
-    border: solid 1px black;
-    padding: 16px;
-    margin: 8px;
+/* Navigation links */
+.navbar a {
+    float: left;
+    padding: 12px;
+    color: white;
+    text-decoration: none;
+    font-size: 17px;
+    width: 33.33%;
+    /* Four equal-width links. If you have two links, use 50%, and 33.33% for three links, etc.. */
+    text-align: center;
+    /* If you want the text to be centered */
 }
 
-nav li {
-    margin-left: 50px;
-    border: solid 8px green;
-    display: inline-block;
-    padding: 16px;
-    margin: 16px;
+/* Add a background color on mouse-over */
+.navbar a:hover {
+    background-color: #000;
 }
 
-nav a {
-    background-color: yellow;
-    padding: 5px;
-    margin: 5px;
+/* Style the current/active link */
+.navbar a.active {
+    background-color: #04AA6D;
 }
 
-.thumbnail {
-    border: solid 5px blue;
-    padding: 20px;
-    border-radius: 20px;
+#skip {
+    position: absolute;
+    left: -500px;
+}
+
+#skip:focus {
+    position: static;
 }
